@@ -1,5 +1,5 @@
-import reactImage from "../assets/react-core-concepts.png";
-
+import reactImage from "../../assets/react-core-concepts.png";
+import "./Header.css"
 const reactDescrition = ["Fundamental", "Crucial", "Core"];
 const randomIndex = (max) => {
   return Math.floor(Math.random() * max);
