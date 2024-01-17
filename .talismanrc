@@ -1,4 +1,4 @@
 fileignoreconfig:
-- filename: yarn.lock
-  checksum: 2605a2b1deb34378ad81311b20e0ed4d999d3822999350522364721bb3ab4c68
+- filename: src/App.jsx
+  checksum: e5c7d520e840241b0fdcf645634a7e2c7a7313e577443131a0039c976a123c8b
 version: ""

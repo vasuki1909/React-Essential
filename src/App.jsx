@@ -16,14 +16,7 @@ function App() {
         <section id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
-            <CoreConcepts
-              img={CORE_CONCEPTS_LIST[0].img}
-              title={CORE_CONCEPTS_LIST[0].title}
-              description={CORE_CONCEPTS_LIST[0].description}
-            />
-            <CoreConcepts {...CORE_CONCEPTS_LIST[1]} />
-            <CoreConcepts {...CORE_CONCEPTS_LIST[2]} />
-            <CoreConcepts {...CORE_CONCEPTS_LIST[3]} />
+            {CORE_CONCEPTS_LIST.map( concept => <CoreConcepts key={concept.title} {...concept} />)}
           </ul>
         </section>
         <section id="examples">
