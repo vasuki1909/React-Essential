@@ -6,9 +6,8 @@ const randomIndex = (max) => {
 };
 const Header = () => {
   const description = reactDescrition[randomIndex(3)];
-  console.log(description);
   return (
-    <header>
+    <header className="header">
       <img src={reactImage} alt="Stylized atom" />
       <h1>React Essentials</h1>
       <p>
